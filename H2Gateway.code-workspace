@@ -1,0 +1,39 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "yaml.format.enable": true,
+        "yaml.validate": true,
+        "[yaml]": {
+            "editor.defaultFormatter": "redhat.vscode-yaml",
+            "editor.formatOnSave": true,
+            "editor.tabSize": 2
+        },
+        "nix.enableLanguageServer": true,
+        "nix.serverPath": "nixd",
+        "nix.serverSettings": {
+          "nixd": {
+            "formatting": {
+              "command": [
+                "nixfmt"
+              ]
+            }
+          }
+        },
+        "[nix]": {
+          "editor.defaultFormatter": "jnoortheen.nix-ide",
+          "editor.formatOnSave": true,
+          "editor.tabSize": 2,
+          "editor.insertSpaces": true,
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "jnoortheen.nix-ide",
+            "redhat.vscode-yaml"
+        ]
+    }
+}

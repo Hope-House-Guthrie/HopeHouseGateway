@@ -1,0 +1,6 @@
+.direnv/
+.provision/
+**/result
+*.qcow2
+.postgresql
+.env
