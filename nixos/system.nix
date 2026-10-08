@@ -18,6 +18,7 @@ inputs.nixpkgs.lib.nixosSystem {
     inputs.agenix.nixosModules.default
     inputs.h2-site.nixosModules.default
     inputs.h3.nixosModules.h3-frontend
+    inputs.h3.nixosModules.h3-forms
     ./configuration.nix
     {
       nixpkgs.overlays = [
