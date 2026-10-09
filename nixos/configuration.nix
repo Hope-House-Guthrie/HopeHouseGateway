@@ -6,6 +6,7 @@
     ./modules/users.nix
     ./modules/services/caddy.nix
     ./modules/services/h2-site.nix
+    ./modules/services/h3-forms.nix
     ./modules/services/h3-frontend.nix
   ];
 

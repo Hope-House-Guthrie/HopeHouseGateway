@@ -5,10 +5,13 @@ let
   ];
 
   hostPublicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILanR35vd9pTMH7u6q9dr57p8/Twnh7ny5PEnTQEtqUN root@h2-gateway";
+
+  publicKeys = adminPublicKeys ++ [ hostPublicKey ];
 in
 {
   # note: comment this before running `agenix -r`
   inherit adminPublicKeys;
 
-  "secrets/root-passwd.age".publicKeys = adminPublicKeys ++ [ hostPublicKey ];
+  "secrets/root-passwd.age" = { inherit publicKeys; };
+  "secrets/h3/dev-azure-service-bus.age" = { inherit publicKeys; };
 }

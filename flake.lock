@@ -146,11 +146,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791470654,
-        "narHash": "sha256-PNedGRe3z1tM2MVRp7ggA0dUmt9SMI1HGKqjm8f53kg=",
+        "lastModified": 1791572664,
+        "narHash": "sha256-sbKy+yL5ZvJlFFq5YWPXWW7fq3/FkO4NW76JjPATXuM=",
         "owner": "Hope-House-Guthrie",
         "repo": "Hope-House-Site",
-        "rev": "de071629be782fcb34a87ef9543ff843fd8024f3",
+        "rev": "8a153a0600341d663a3d9ca442ba8574f06749b4",
         "type": "github"
       },
       "original": {
@@ -193,11 +193,11 @@
         "nuget-packageslock2nix": "nuget-packageslock2nix_2"
       },
       "locked": {
-        "lastModified": 1791470362,
-        "narHash": "sha256-NqYlo9b+yK95weG2VA+zaSx88Y5nBclAYdUJldQFm+0=",
+        "lastModified": 1791565716,
+        "narHash": "sha256-hlUUHm8FEBRynI6NzsaAXTtUv+4ZfU//9rMGkAXLvls=",
         "owner": "Hope-House-Guthrie",
         "repo": "HopeHouseHub",
-        "rev": "2cf2aa275ff272a9aba8e2589d54835d40f390c6",
+        "rev": "817b5511b4a2cf6df10fa281a3a844305c524ff7",
         "type": "github"
       },
       "original": {
